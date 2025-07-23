@@ -16,6 +16,7 @@ proxies:
     fingerprint: chrome
     network: tcp
     client-fingerprint: chrome
+
 proxy-groups:
   - name: "Proxy"
     type: select
