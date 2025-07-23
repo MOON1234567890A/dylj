@@ -1,0 +1,23 @@
+proxies:
+  - name: "lavo41fs"
+    type: vless
+    server: 205.198.70.17
+    port: 23425
+    uuid: 5df53081-0012-4218-a0a0-ae20b01c13d0
+    flow: xtls-rprx-vision
+    cipher: none
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: OqncTN7gpeAfqnOSbsrciXKQePzUf8ikddZijzYrjWU
+      short-id: fc
+      spider-x: /
+    servername: yahoo.com
+    fingerprint: chrome
+    network: tcp
+    client-fingerprint: chrome
+proxy-groups:
+  - name: "Proxy"
+    type: select
+    proxies:
+      - "lavo41fs"
